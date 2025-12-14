@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MichaelSoft - Design Your Next Landmark </title>
+  <meta name="description" content="MichaelSoft is a digital design studio specialising in modern website development, clean UI/UX, and custom solutions for businesses. We transform ideas into stunning digital landmarks with precision, creativity, and reliability.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+
+    <!-- Left Dropdown -->
+    <div class="nav-left dropdown">
+      <button class="dropdown-btn">Explore ▼</button>
+
+      <div class="dropdown-menu">
+        <a href="#booking" onclick="loadPage('booking.html')">Book a Meeting</a>
+        <a href="#process" onclick="loadPage('process.html')">Our Process</a>
+        <a href="#join" onclick="loadPage('join.html')">Join Us</a>
+        <a href="#faq" onclick="loadPage('FAQ.html')">FAQ</a>
+      </div>
+    </div>
+
+
+    <!-- Center Logo -->
+    <div class="nav-middle">
+      <img src="PyramidLogo.png" class="nav-logo" onclick="location.reload()">
+    </div>
+
+
+
+
+
+    <!-- Right Navigation -->
+    <div class="nav-center">
+      <a href="#about">About Us</a>
+      <a href="#portfolio"> Our Work</a>
+      <a href="#services">Services</a>
+      <a href='contact.html'>Contact</a>
+    </div>
+
+  </nav>
+
+
+
+
+
+
+  <!-- Hero Section -->
+  <section class="main-hero">
+    <img src="MichaelSoftLogo.png" alt="MichaelSoft Logo" class="hero-logo">
+
+    <button class="hero-btn" onclick="loadPage('booking.html')">Book a Meeting</button>
+
+    <!-- Hidden loading animation -->
+    <div id="loadingScreen" class="loading-screen">
+      <div class="loader"></div>
+      <p>A step Closer To Creating Your Landmark...</p>
+    </div>
+  </section>
+
+
+
+
+
+
+  
+<!-- ABOUT US SECTION -->
+  <section id="about" class="about-section">
+    <div class="aboutus">
+      <h2>About Us</h2>
+  
+      <p>
+        At MichaelSoft, we believe every project has the potential to become a landmark.
+        Our mission is to transform ideas into meaningful, modern, and impactful digital experiences that leave a lasting impression. <br> <br>
+        Rooted in Egyptian heritage, we bring a unique perspective to every design. Inspired by the precision, symbolism, and architectural mastery of ancient Egypt, we channel that same spirit of creativity and craftsmanship into our digital work today. <br> <br>
+        Whether it’s building a brand, shaping a website, or crafting a full visual identity, we approach every project with intention, passion, and a commitment to excellence. <br> <br>
+        At MichaelSoft, we don’t just design — <strong>help you build your own landmark. </strong>
+      </p> <br> <br>
+  
+      <button class="contact-btn" onclick="loadPage('contact.html')">Contact Us</button>
+    </div>
+  </section>
+
+
+
+
+
+
+<!--PROTFOLIO SECTION -->
+  <section id="portfolio" class="portfolio-section">
+
+    <div class="portfolio-container">
+      
+      <h2>Our Work</h2>
+      <p class="portfolio-intro">
+        At MichaelSoft, we take pride in designing digital landmarks that stand out. 
+        Every project is crafted with intention, passion, and the highest level of detail — 
+        blending modern creativity with the strength of our Egyptian heritage.
+      </p>
+  
+      <!-- PROJECT BOX 1 -->
+      <div class="project-box">
+        <img src="yourimage1.jpg" alt="Project Image">
+        <div class="project-text">
+          <h3>Project Title 1</h3>
+          <p>
+            A short description of your work here. 
+          </p>
+        </div>
+      </div>
+  
+      <!-- PROJECT BOX 2 -->
+      <div class="project-box">
+        <img src="yourimage2.jpg" alt="Project Image">
+        <div class="project-text">
+          <h3>Project Title 2</h3>
+          <p>
+            A short description of your work here. 
+          </p>
+        </div>
+      </div>
+  
+      <!-- PROJECT BOX 3 -->
+      <div class="project-box">
+        <img src="yourimage3.jpg" alt="Project Image">
+        <div class="project-text">
+          <h3>Project Title 3</h3>
+          <p>
+            A short description of your work here. 
+          </p>
+        </div>
+      </div>
+  
+      <!-- PROJECT BOX 4 -->
+      <div class="project-box">
+        <img src="yourimage4.jpg" alt="Project Image">
+        <div class="project-text">
+          <h3>Project Title 4</h3>
+          <p>
+            A short description of your work here. 
+          </p>
+        </div>
+      </div>
+  
+    </div>
+  
+  </section>
+
+  
+
+
+
+  <!--SERVICES SECTION -->
+
+
+  <section id="services" class="services-section">
+
+    <div class="portfolio-container">
+      
+      <h2>Our Services</h2>
+      <p class="portfolio-intro">
+        We provide a range of digital solutions designed to improve your online presence, enhance user experience, and bring your ideas to life.
+      </p>
+  
+      <!-- Service BOX 1 -->
+      <div class="project-box">
+        <div class="project-text">
+          <h3>Website Design & Development</h3>
+          <p>
+            We build modern, responsive, and user-friendly websites that look great on all devices. Our designs are clean, fast, and tailored to your brand’s identity.
+          </p>
+        </div>
+      </div>
+  
+      <!-- Service BOX 2 -->
+      <div class="project-box">
+        <div class="project-text">
+          <h3>UI/UX Enhancement & Website Upgrades</h3>
+          <p>
+            If you already have a website, we refine its look, feel, and performance—improving layout, navigation, and user experience for better results.
+          </p>
+        </div>
+      </div>
+  
+      <!-- Service BOX 3 -->
+      <div class="project-box">
+        <div class="project-text">
+          <h3>Website Bug Fixing & Issue Resolution</h3>
+          <p>
+            We diagnose and repair errors, glitches, and performance problems on existing websites. From layout issues to slow loading times, we restore your site to full functionality.
+          </p>
+        </div>
+      </div>
+  
+      <!-- Service BOX 4 -->
+      <div class="project-box">
+        <div class="project-text">
+          <h3>Portfolio Website Creation</h3>
+          <p>
+            Custom portfolio websites for freelancers, creators, students, and small businesses looking to showcase their work professionally.
+          </p>
+        </div>
+      </div>
+  
+      <!-- Service BOX 5 -->
+      <div class="project-box">
+        <div class="project-text">
+          <h3>Custom Features & Add-Ons</h3>
+          <p>
+            We build contact forms, booking systems, galleries, sliders, animations, and other custom website features tailored to your needs.
+          </p>
+        </div>
+      </div>
+  
+      <!-- Service BOX 6 -->
+      <div class="project-box">
+        <div class="project-text">
+          <h3>Social Media Integration</h3>
+          <p>
+            Connecting your website with your social platforms through embedded feeds, share buttons, and consistent branding.
+          </p>
+        </div>
+      </div>
+  
+      <!-- Service BOX 7 -->
+      <div class="project-box">
+        <div class="project-text">
+          <h3>Website Maintenance Packages</h3>
+          <p>
+            Monthly updates, backups, security checks, performance monitoring, and content updates to keep your website running smoothly.
+          </p>
+        </div>
+      </div>
+  
+    <!-- Service BOX 8 -->
+<div class="project-box">
+  <div class="project-text">
+    <h3>SEO Setup & Performance Optimization</h3>
+    <p>
+      Improving your site's search ranking, speed, and performance,
+      ensuring faster load times and better visibility.
+    </p>
+  </div>
+</div>
+
+<div class="center-btn">
+  <button class="hero-btn" onclick="loadPage('booking.html')">
+    Book a Meeting
+  </button>
+</div>
+</section>
+
+
+
+
+
+
+
+<!-- Footer Section -->
+<section class="footer-section"></section>
+
+<footer>
+  <div class="footer-content">
+
+    <!-- LEFT: Socials -->
+    <div class="footer-socials">
+      <span class="footer-text">Follow Us</span>
+
+      <a href="https://www.instagram.com/" target="_blank" class="social-link">
+        <img class="footer-img" src="Instagram_logo.png" alt="Instagram">
+      </a>
+    </div>
+
+    <!-- CENTER: Quick Links -->
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <a href="#booking" onclick="loadPage('booking.html')">Book a Meeting</a>
+      <a href="#process" onclick="loadPage('process.html')">Our Process</a>
+      <a href="#contact" onclick="loadPage('contact.html')">Our Contacts</a>
+      <a href="#join" onclick="loadPage('join.html')">Join Us</a>
+      <a href="#faq" onclick="loadPage('FAQ.html')">FAQ</a>
+    </div>
+
+    <!-- RIGHT: Subscribe -->
+    <div class="subscribe-box">
+      <h3>Subscribe to our newsletter</h3>
+      <form class="subscribe-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- Copyright -->
+  <p>© 2025 MichaelSoft. All Rights Reserved.</p>
+
+  <!-- Bottom Logo -->
+  <div class="michaelsoft-wrapper">
+    <p class="footer-MichaelSoft">Powered By MichaelSoft</p>
+    <img class="PyramidLogo" src="PyramidLogo.png" alt="pyramid">
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+<script>
+
+  /* BOOKING LOADING ANIMATION */
+  function loadPage(page) {
+    const loader = document.getElementById("loadingScreen");
+    loader.style.display = "flex";
+
+    setTimeout(() => {
+      window.location.href = page;
+    }, 1500);
+  }
+
+  function loadWithAnimation() {
+    const loader = document.getElementById("loadingScreen");
+    loader.style.display = "flex";
+
+    setTimeout(() => {
+      loader.style.display = "none";
+    }, 1000);
+  }
+
+  /* DROPDOWN MENU SCRIPT */
+  const dropdownBtn = document.querySelector(".dropdown-btn");
+  const dropdownMenu = document.querySelector(".dropdown-menu");
+
+  dropdownBtn.addEventListener("click", () => {
+    dropdownMenu.classList.toggle("open");
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!dropdownBtn.contains(e.target) && !dropdownMenu.contains(e.target)) {
+      dropdownMenu.classList.remove("open");
+    }
+  });
+
+</script>
+
+</body>
+</html>
