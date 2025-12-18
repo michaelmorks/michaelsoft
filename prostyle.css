@@ -394,3 +394,98 @@
   .footer-links a:hover {
     color: #d0a001;           /* hover = gold */
   }
+
+  /* ================= MOBILE STYLES ================= */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar {
+    padding: 1rem;
+  }
+
+  .nav-left a {
+    font-size: 14px;
+  }
+
+  .nav-logo {
+    width: 90px;
+  }
+
+  /* HERO */
+  .hero-logo {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .main-hero {
+    height: auto;
+    padding: 100px 20px;
+  }
+
+  .hero-btn {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+
+  /* ABOUT / PORTFOLIO / SERVICES */
+  .aboutus,
+  .portfolio-container {
+    width: 92%;
+    padding: 25px;
+  }
+
+  .aboutus h2,
+  .portfolio-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .aboutus p,
+  .portfolio-intro {
+    font-size: 1rem;
+  }
+
+  /* PROJECT BOXES STACK */
+  .project-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-text {
+    text-align: center;
+  }
+
+  /* BOOKING FORM */
+  .booking-form {
+    padding: 25px;
+  }
+
+  .booking-form input,
+  .booking-form select {
+    padding: 14px;
+    font-size: 1rem;
+  }
+
+  /* FOOTER */
+  .footer-content {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .footer-socials,
+  .footer-links,
+  .subscribe-box {
+    align-items: center;
+    text-align: center;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .subscribe-form input,
+  .subscribe-form button {
+    width: 100%;
+  }
+}
